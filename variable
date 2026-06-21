@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class variable1{
+    public static void main(String[] args){
+        Scanner pavi = new Scanner(System.in);
+        String name=pavi.nextLine();
+        int age=pavi.nextInt();
+        pavi.nextLine();
+        String address=pavi.nextLine();
+        String father=pavi.nextLine();
+        System.out.println("my name is: "+name);
+        System.out.println("my age is: "+age);
+        System.out.println("my address is: "+address);
+        System.out.println(father);
+
+    }
+}
