@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class else1{
+    public static void main(String []args){
+        Scanner scan = new Scanner(System.in);
+        String meghna=scan.nextLine();
+        if(meghna.equals("dead")){
+            System.out.print("surya meet priya ");
+
+        }
+        else{
+            System.out.println("Surya marray meghna");
+            
+        }
+    }
+}
