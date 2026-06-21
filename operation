@@ -1,0 +1,15 @@
+class student_detials {
+   student_detials() {
+   }
+
+   public static void main(String[] var0) {
+      String var1 = "keerthana";
+      byte var2 = 20;
+      String var3 = "IT";
+      String var4 = "Dhanalakshmi Srinivasan Engineering College";
+      System.out.println("Name: " + var1);
+      System.out.println("Age: " + var2);
+      System.out.println("Department: " + var3);
+      System.out.println("College: " + var4);
+   }
+}
