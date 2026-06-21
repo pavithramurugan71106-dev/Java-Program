@@ -1,0 +1,22 @@
+ import java.util.Scanner;
+ class else3{
+    public static void main(String[]args){
+        Scanner scan  = new Scanner(System.in);
+        int Tamil=scan.nextInt();
+        int English=scan.nextInt();
+        int maths=scan.nextInt();
+        int science=scan.nextInt();
+        int social=scan.nextInt();
+        int total=Tamil+English+maths+science+social;
+        int avg=total/5;
+        System.out.println("the average mark: "+avg);
+        if(avg<=35){
+            System.out.println("additional class requirement need");
+
+        }
+        else{
+            System.out.println("good job");
+        }
+
+    }
+ }
