@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class else2{
+    public static void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        int num=scan.nextInt();
+        if(num<50){
+            System.out.println("you need to improve");
+        }
+        else if(num<50 && num>60){
+            System.out.println("good job");
+        }
+        else if(num>70){
+            System.out.println("excellent performace");
+        }
+    }
+}
